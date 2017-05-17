@@ -1,0 +1,14 @@
+
+
+Importing file: C:\Users\Administrator\IBM\IIBT10\mavenworkspace\Maven1IIB10SharedLib\Maven1IIB10IntService.wsdl
+
+The WSDL import will proceed with bindings Maven1IIB10IntServiceHttpBinding.
+Creating wsdl schema document for file:///C:/Users/Administrator/IBM/IIBT10/mavenworkspace/Maven1IIB10SharedLib/Maven1IIB10IntService.wsdl.
+Parsing wsdl binding {http://Maven1IIB10IntService}Maven1IIB10IntServiceHttpBinding.
+Parsing wsdl binding input operation1.
+Parsing wsdl binding output operation1.
+Processing doc style for operation operation1.
+Populating WSDL schema Maven1IIB10IntService.xsd.
+Creating file Maven1IIB10IntService.xsd in the workspace.
+Creating file Maven1IIB10IntService_InlineSchema2.xsd in the workspace.
+Copying source WSDL Maven1IIB10IntService.wsdl to Maven1IIB10IntService.wsdl.

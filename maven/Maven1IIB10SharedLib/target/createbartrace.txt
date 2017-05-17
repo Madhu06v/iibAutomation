@@ -1,0 +1,25 @@
+[2017/05/16/03:32:45] [INFO] CommandProcessor: process { mqsicreatebar arguments: } 
+[2017/05/16/03:32:45] [INFO] CommandProcessor: process { [-showlocation, -b, C:\Users\Administrator\IBM\IIBT10\maven\Maven1IIB10SharedLib\target\Maven1IIB10SharedLib-10.0.0.6.bar, -l, Maven1IIB10SharedLib, -cleanBuild, -deployAsSource, -trace, -v, C:\Users\Administrator\IBM\IIBT10\maven\Maven1IIB10SharedLib\target\createbartrace.txt, -wmbtData] } 
+[2017/05/16/03:32:46] [INFO] CommandProcessor: process { Disable auto-build before opening the projects } 
+[2017/05/16/03:32:46] [INFO] CommandProcessor: openWorkspace {  } 
+[2017/05/16/03:32:46] [INFO] CommandProcessor: openWorkspace { List of libraries to be processed: Maven1IIB10SharedLib } 
+[2017/05/16/03:32:53] [INFO] CommandProcessor: process { Enable auto-build after the projects are opened } 
+[2017/05/16/03:32:53] [INFO] CommandProcessor: waitForBuildsToComplete { Waiting for build to complete } 
+[2017/05/16/03:33:15] [INFO] CommandProcessor: process { Building projects in the workspace } 
+[2017/05/16/03:33:16] [INFO] CommandProcessor: waitForBuildsToComplete { Waiting for build to complete } 
+[2017/05/16/03:33:29] [INFO] CommandProcessor: cleanBuildProjects { Done cleaning projects } 
+[2017/05/16/03:33:29] [INFO] CommandProcessor: waitForBuildsToComplete { Waiting for build to complete } 
+[2017/05/16/03:33:39] [INFO] CommandProcessor: process { Check the workspace error } 
+[2017/05/16/03:33:39] [INFO] CommandProcessor: doCompile {  } 
+[2017/05/16/03:33:39] [INFO] AddToBARFileOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/.project to BAR file } 
+[2017/05/16/03:33:39] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/IBMdefined/org/w3/www/xml/_1998/namespace/xml.xsd to BAR file } 
+[2017/05/16/03:33:39] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/IBMdefined/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd to BAR file } 
+[2017/05/16/03:33:39] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/IBMdefined/soap.xsd to BAR file } 
+[2017/05/16/03:33:39] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/NewWSDLFile.wsdl to BAR file } 
+[2017/05/16/03:33:39] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/NewWSDLFile.xsd to BAR file } 
+[2017/05/16/03:33:39] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/NewWSDLFile_InlineSchema1.xsd to BAR file } 
+[2017/05/16/03:33:39] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/library.descriptor to BAR file } 
+[2017/05/16/03:33:39] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/library.descriptor to BAR file } 
+[2017/05/16/03:33:39] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding Maven1IIB10SharedLib/target/failsafe-reports/failsafe-summary.xml to BAR file } 
+[2017/05/16/03:33:39] [INFO] CommandProcessor: saveBar {  } 
+[2017/05/16/03:33:39] [INFO] CommandProcessor: closeWorkspace {  } 
