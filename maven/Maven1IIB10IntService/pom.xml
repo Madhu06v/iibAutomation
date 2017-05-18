@@ -44,11 +44,11 @@
    <version>5.2.1</version>
             <executions>
                <execution>
-                  <id>QClearanceTest</id>
+                  <id>IIBIntegrationTest_ServiceAndSharedLib</id>
                   <goals>
                      <goal>test</goal> 
                   </goals>
-                  <phase>test</phase>           
+                  <phase>integration-test</phase>           
                </execution>
             </executions>                       
             <configuration>
@@ -58,7 +58,7 @@
       <endpoint>http://96.90.100.116:7800/</endpoint>               
                <outputFolder>${project.build.directory}/surefire-reports</outputFolder>
                <junitReport>true</junitReport>
-               <printReport>false</printReport>
+               <printReport>true</printReport>
                <projectProperties>
                   <projectProperty>input=AoA</projectProperty>
                </projectProperties>
