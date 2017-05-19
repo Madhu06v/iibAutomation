@@ -1,5 +1,5 @@
 # define the integration server to mqsideploy the bar file to for this environment (must be defined! all other values are optional)
-integrationServerName=mavenIntSrvr
+integrationServerName=mavenIntSrvrMadhu
 
 
 # identifies the name of a locally defined broker. You cannot use this option if the broker is on a remote computer.
