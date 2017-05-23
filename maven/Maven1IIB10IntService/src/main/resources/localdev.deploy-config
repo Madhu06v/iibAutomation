@@ -1,9 +1,9 @@
 # define the integration server to mqsideploy the bar file to for this environment (must be defined! all other values are optional)
-integrationServerName=mavenIntSrvr
+integrationServerName=default
 
 
 # identifies the name of a locally defined broker. You cannot use this option if the broker is on a remote computer.
-brokerName=NODE_STG
+brokerName=NODE_DEV
  
 # The host name or the IP address of the computer on which the broker is running. If you do not specify this parameter, a value that represents the local computer is used.
 ipAddress=localhost
@@ -12,7 +12,7 @@ ipAddress=localhost
 port=
 
 # The name of the broker's queue manager. If you do not specify this parameter, a value that represents the default queue manager on the local computer is used.
-qMgr=QM_STG
+qMgr=QM_DEV
 
 # describes the set of objects that you want to remove from the integration server. You can specify multiple files to delete by separating the filenames with a colon (:).
 deployedObjects= 

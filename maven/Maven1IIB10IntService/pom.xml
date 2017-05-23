@@ -38,33 +38,7 @@
     
     <build>
         <plugins>
-		<plugin>
-            <groupId>com.smartbear.soapui</groupId>
-   <artifactId>soapui-maven-plugin</artifactId>
-   <version>5.2.1</version>
-            <executions>
-               <execution>
-                  <id>IIBIntegrationTest_ServiceAndSharedLib</id>
-                  <goals>
-                     <goal>test</goal> 
-                  </goals>
-                  <phase>integration-test</phase>           
-               </execution>
-            </executions>                       
-            <configuration>
-               <projectFile>C:\Users\Administrator\IBM\IIBT10\maven\Maven1IIB10IntService\soapui\96-90-100-116-iib1service-soapui-project.xml</projectFile>
-      <testSuite>TestSuite 1</testSuite>
-      <testCase>TestCase 1</testCase>
-      <endpoint>http://96.90.100.116:7800/</endpoint>               
-               <outputFolder>${project.build.directory}/surefire-reports</outputFolder>
-               <junitReport>true</junitReport>
-               <printReport>true</printReport>
-               <projectProperties>
-                  <projectProperty>input=AoA</projectProperty>
-               </projectProperties>
-      <settingsFile>C:\Users\Administrator\IBM\IIBT10\maven\Maven1IIB10IntService\soapui\soapui-settings.xml</settingsFile>
-            </configuration>
-         </plugin>   
+		  
             <plugin>
                 <groupId>ch.sbb.maven.plugins</groupId>
                 <artifactId>iib-maven-plugin</artifactId>
