@@ -1,0 +1,14 @@
+2017-05-19 10:53:54,188 WARN  [SoapUI] Missing folder [C:\Users\Administrator\IBM\IIBT10\maven\integration_test_dev\ext] for external libraries
+2017-05-19 10:53:54,782 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Administrator\IBM\IIBT10\maven\integration_test_dev\soapui-settings.xml]
+2017-05-19 10:54:01,748 INFO  [PluginManager] 0 plugins loaded in 0 ms
+2017-05-19 10:54:01,748 INFO  [DefaultSoapUICore] All plugins loaded
+2017-05-19 10:54:03,357 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Administrator/IBM/IIBT10/maven/integration_test_dev/dev-soapui-project.xml]
+2017-05-19 10:54:03,357 INFO  [SoapUITestCaseRunner] Setting project property [input] to [AoA]
+2017-05-19 10:54:03,373 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [96.90.100.116_iib1service]
+2017-05-19 10:54:03,373 INFO  [SoapUITestCaseRunner] Running TestCase [TestCase 1]
+2017-05-19 10:54:03,373 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2017-05-19 10:54:03,467 INFO  [SoapUITestCaseRunner] running step [SOAP Request]
+2017-05-19 10:54:04,107 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2017-05-19 10:54:04,107 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-05-19 10:54:04,107 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 633ms, status: FINISHED
+2017-05-19 10:54:04,107 INFO  [SoapUITestCaseRunner] TestCase [TestCase 1] finished with status [FINISHED] in 633ms

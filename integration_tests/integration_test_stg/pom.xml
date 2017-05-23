@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ibm.broker</groupId>
+    <artifactId>integration_test_stg</artifactId>
+    <version>10.0.0.6</version>
+    
+
+	  <pluginRepositories>  
+  <pluginRepository>
+        <id>smartbear-sweden-plugin-repository</id>
+        <url>http://www.soapui.org/repository/maven2/</url>
+    </pluginRepository>
+ </pluginRepositories> 
+	
+    
+    
+    
+    <build>
+        <plugins>
+		<plugin>
+            <groupId>com.smartbear.soapui</groupId>
+   <artifactId>soapui-maven-plugin</artifactId>
+   <version>5.2.1</version>
+            <executions>
+               <execution>
+                  
+                  <goals>
+                     <goal>test</goal> 
+                  </goals>
+                  <phase>test</phase>           
+               </execution>
+            </executions>                       
+            <configuration>
+               <projectFile>integration_test_stg\stg-soapui-project.xml</projectFile>
+      <testSuite>TestSuite 1</testSuite>
+      <testCase>TestCase 1</testCase>
+      <endpoint>http://96.90.100.116:7800/</endpoint>               
+               
+               <junitReport>true</junitReport>
+               <printReport>true</printReport>
+               <projectProperties>
+                  <projectProperty>input=AoA</projectProperty>
+               </projectProperties>
+      <settingsFile>soapui-settings.xml</settingsFile>
+            </configuration>
+         </plugin>   
+          
+			
+        </plugins>
+
+       
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency> 
+    </dependencies>
+        
+    <!-- NOTE:  The Integration Test FailSafe plugin looks for Test classes that follow the **/*IT.java, **/*ITCase.java, or **/IT*.java pattern -->
+        
+
+	
+
+
+</project>
