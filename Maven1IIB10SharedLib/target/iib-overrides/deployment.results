@@ -1,0 +1,4 @@
+#The key value represents the environmentId while the value represents the file location of the successfully deployed bar file
+#Fri May 19 11:29:32 CDT 2017
+localstg=C\:\\Users\\Administrator\\IBM\\IIBT10\\maven\\Maven1IIB10SharedLib\\target\\iib-overrides\\Maven1IIB10SharedLib-10.0.0.6-localstg.bar
+localdev=C\:\\Users\\Administrator\\IBM\\IIBT10\\maven\\Maven1IIB10SharedLib\\target\\iib-overrides\\Maven1IIB10SharedLib-10.0.0.6-localdev.bar
