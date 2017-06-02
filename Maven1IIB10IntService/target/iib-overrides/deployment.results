@@ -1,3 +1,0 @@
-#The key value represents the environmentId while the value represents the file location of the successfully deployed bar file
-#Tue May 30 07:05:50 CDT 2017
-localdev=C\:\\Users\\Administrator\\IBM\\IIBT10\\maven\\Maven1IIB10IntService\\target\\iib-overrides\\Maven1IIB10IntService-10.0.0.6-localdev.bar
