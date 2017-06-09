@@ -114,8 +114,8 @@
 
 	<distributionManagement>
 		<repository>
-			<id>Madhu06v</id>
-			<name>madhu1028</name>
+			<id>deploymentRepo</id>
+			<name>iibArtifactsRepo</name>
 			<url>https://github.com/Madhu06v/iibAutomation/iibArtifacts</url>
 		</repository>
 	</distributionManagement>
