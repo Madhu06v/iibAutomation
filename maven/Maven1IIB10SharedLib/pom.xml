@@ -104,13 +104,20 @@
         
     <!-- NOTE:  The Integration Test FailSafe plugin looks for Test classes that follow the **/*IT.java, **/*ITCase.java, or **/IT*.java pattern -->
 
-	<distributionManagement>
+<!--	<distributionManagement>
 		<repository>
 			<id>distribution.repository</id>
 			<name>distribution.repository</name>
 			<url>file://C:\Users\Administrator\.m2\repository\ch\sbb\maven\plugins\iib-maven-plugin\10.0-SNAPSHOT</url>
 		</repository>
-	</distributionManagement>
+	</distributionManagement>  -->
 
+	<distributionManagement>
+		<repository>
+			<id>Madhu06v</id>
+			<name>madhu1028</name>
+			<url>https://github.com/Madhu06v/iibAutomation/iibArtifacts</url>
+		</repository>
+	</distributionManagement
 
 </project>
