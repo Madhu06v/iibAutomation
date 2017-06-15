@@ -12,7 +12,7 @@
 
     <modules>
 		
-		<module>integration_test_dev</module>
+		<!--<module>integration_test_dev</module> -->
 		<module>integration_test_stg</module>
    	
     </modules>
