@@ -33,8 +33,7 @@
                 <mqsiCreateBarDeployAsSource>true</mqsiCreateBarDeployAsSource>    
             </properties>        
         </profile>    
-    </profiles>
-    
+    </profiles>    
     
     <build>
         <plugins>
